@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Baekjoon https://www.acmicpc.net/problem/11723
+
 void print(int *set){ // print all value of the set
     for(int i = 0 ; i < 20; i++)
         printf("%d ", set[i]);
